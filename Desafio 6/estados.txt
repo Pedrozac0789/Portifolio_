@@ -1,0 +1,218 @@
+[
+  {
+    "nome": "Acre",
+    "capital": "Rio Branco",
+    "regiao": "Norte",
+    "populacao": "906.876",
+    "area": "164.123,040",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Bandeira_do_Acre.svg"
+  },
+  {
+    "nome": "Alagoas",
+    "capital": "Maceió",
+    "regiao": "Nordeste",
+    "populacao": "3.365.351",
+    "area": "27.848,140",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/8/88/Bandeira_de_Alagoas.svg"
+  },
+  {
+    "nome": "Amapá",
+    "capital": "Macapá",
+    "regiao": "Norte",
+    "populacao": "877.613",
+    "area": "142.828,521",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/0/0c/Bandeira_do_Amap%C3%A1.svg"
+  },
+  {
+    "nome": "Amazonas",
+    "capital": "Manaus",
+    "regiao": "Norte",
+    "populacao": "4.269.995",
+    "area": "1.559.168,117",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/6/6b/Bandeira_do_Amazonas.svg"
+  },
+  {
+    "nome": "Bahia",
+    "capital": "Salvador",
+    "regiao": "Nordeste",
+    "populacao": "14.985.284",
+    "area": "564.733,177",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/2/28/Bandeira_da_Bahia.svg"
+  },
+  {
+    "nome": "Ceará",
+    "capital": "Fortaleza",
+    "regiao": "Nordeste",
+    "populacao": "9.240.580",
+    "area": "148.920,472",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Bandeira_do_Cear%C3%A1.svg"
+  },
+  {
+    "nome": "Distrito Federal",
+    "capital": "Brasília",
+    "regiao": "Centro-Oeste",
+    "populacao": "3.094.325",
+    "area": "5.760,783",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Bandeira_do_Distrito_Federal_%28Brasil%29.svg"
+  },
+  {
+    "nome": "Espírito Santo",
+    "capital": "Vitória",
+    "regiao": "Sudeste",
+    "populacao": "4.108.508",
+    "area": "46.095,583",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/4/43/Bandeira_do_Esp%C3%ADrito_Santo.svg"
+  },
+  {
+    "nome": "Goiás",
+    "capital": "Goiânia",
+    "regiao": "Centro-Oeste",
+    "populacao": "7.206.589",
+    "area": "340.111,783",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/b/be/Flag_of_Goi%C3%A1s.svg"
+  },
+  {
+    "nome": "Maranhão",
+    "capital": "São Luís",
+    "regiao": "Nordeste",
+    "populacao": "7.153.262",
+    "area": "331.937,450",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/4/45/Bandeira_do_Maranh%C3%A3o.svg"
+  },
+  {
+    "nome": "Mato Grosso",
+    "capital": "Cuiabá",
+    "regiao": "Centro-Oeste",
+    "populacao": "3.567.234",
+    "area": "903.366,192",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Bandeira_de_Mato_Grosso.svg"
+  },
+  {
+    "nome": "Mato Grosso do Sul",
+    "capital": "Campo Grande",
+    "regiao": "Centro-Oeste",
+    "populacao": "2.839.188",
+    "area": "357.145,532",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/6/64/Bandeira_de_Mato_Grosso_do_Sul.svg"
+  },
+  {
+    "nome": "Minas Gerais",
+    "capital": "Belo Horizonte",
+    "regiao": "Sudeste",
+    "populacao": "21.411.923",
+    "area": "586.522,122",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Bandeira_de_Minas_Gerais.svg"
+  },
+  {
+    "nome": "Pará",
+    "capital": "Belém",
+    "regiao": "Norte",
+    "populacao": "8.777.124",
+    "area": "1.247.954,666",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bandeira_do_Par%C3%A1.svg"
+  },
+  {
+    "nome": "Paraíba",
+    "capital": "João Pessoa",
+    "regiao": "Nordeste",
+    "populacao": "4.059.905",
+    "area": "56.585,000",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Bandeira_da_Para%C3%ADba.svg"
+  },
+  {
+    "nome": "Paraná",
+    "capital": "Curitiba",
+    "regiao": "Sul",
+    "populacao": "11.597.484",
+    "area": "199.307,922",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/9/93/Bandeira_do_Paran%C3%A1.svg"
+  },
+  {
+    "nome": "Pernambuco",
+    "capital": "Recife",
+    "regiao": "Nordeste",
+    "populacao": "9.674.793",
+    "area": "98.311,616",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/5/59/Bandeira_de_Pernambuco.svg"
+  },
+  {
+    "nome": "Piauí",
+    "capital": "Teresina",
+    "regiao": "Nordeste",
+    "populacao": "3.289.290",
+    "area": "251.616,823",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/3/33/Bandeira_do_Piau%C3%AD.svg"
+  },
+  {
+    "nome": "Rio de Janeiro",
+    "capital": "Rio de Janeiro",
+    "regiao": "Sudeste",
+    "populacao": "17.463.349",
+    "area": "43.780,172",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/7/73/Bandeira_do_estado_do_Rio_de_Janeiro.svg"
+  },
+  {
+    "nome": "Rio Grande do Norte",
+    "capital": "Natal",
+    "regiao": "Nordeste",
+    "populacao": "3.560.903",
+    "area": "52.811,047",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/3/30/Bandeira_do_Rio_Grande_do_Norte.svg"
+  },
+  {
+    "nome": "Rio Grande do Sul",
+    "capital": "Porto Alegre",
+    "regiao": "Sul",
+    "populacao": "11.466.630",
+    "area": "281.730,223",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/6/63/Bandeira_do_Rio_Grande_do_Sul.svg"
+  },
+  {
+    "nome": "Rondônia",
+    "capital": "Porto Velho",
+    "regiao": "Norte",
+    "populacao": "1.815.278",
+    "area": "237.590,547",https://upload.wikimedia.org/wikipedia/commons/f/fa/Bandeira_de_Rond%C3%B4nia.svg"
+    "bandeira": "
+  },
+  {
+    "nome": "Roraima",
+    "capital": "Boa Vista",
+    "regiao": "Norte",
+    "populacao": "652.713",
+    "area": "224.300,506",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/9/98/Bandeira_de_Roraima.svg"
+  },
+  {
+    "nome": "Santa Catarina",
+    "capital": "Florianópolis",
+    "regiao": "Sul",
+    "populacao": "7.338.473",
+    "area": "95.730,921",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Bandeira_de_Santa_Catarina.svg"
+  },
+  {
+    "nome": "São Paulo",
+    "capital": "São Paulo",
+    "regiao": "Sudeste",
+    "populacao": "46.649.132",
+    "area": "248.219,481",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Bandeira_do_estado_de_S%C3%A3o_Paulo.svg"
+  },
+  {
+    "nome": "Sergipe",
+    "capital": "Aracaju",
+    "regiao": "Nordeste",
+    "populacao": "2.338.474",
+    "area": "21.915,116",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/b/be/Bandeira_de_Sergipe.svg"
+  },
+  {
+    "nome": "Tocantins",
+    "capital": "Palmas",
+    "regiao": "Norte",
+    "populacao": "1.607.363",
+    "area": "277.720,520",
+    "bandeira": "https://upload.wikimedia.org/wikipedia/commons/f/ff/Bandeira_do_Tocantins.svg"
+  }
+]

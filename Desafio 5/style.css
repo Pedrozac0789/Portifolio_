@@ -1,0 +1,72 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins' , sans-serif;
+}
+
+body {
+  background-color: #b3907a;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  background-color: #e1daca;
+  height: 740px;
+  width: 50%;
+}
+
+
+
+main{
+  display: flexbox;
+  justify-content: center;
+  
+  
+}
+h1{
+  margin-bottom: 10px;
+}
+
+p{
+  margin-bottom: 100px;
+  margin-top: 22px;
+}
+
+.img_perfil {
+  height: 240px;
+  width: 255px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+
+}
+
+a{
+  text-decoration: none;
+  
+}
+
+.github,.linkdin,.instagram{
+  display: flex;
+  justify-content: center;
+  color: #fff;
+
+  background-color: #674c3b;
+  border-radius: 30px;
+  height: 60px;
+  width: 250px;
+  margin-bottom: 20px;
+  
+}
+
+svg{
+  margin-top: 15px;
+}
+.buton{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-left: 35%;
+}

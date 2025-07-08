@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro</title>
+</head>
+
+<body>
+  <div style="background-color: rgb(249, 249, 249); display: flex; justify-content: center;">
+    <div style="background-color: rgb(244, 244, 244); height: auto; width: 60%;">
+      <header>
+        <h1 align="center"><b><u>Cadastro- Curso de Programação</u>
+          </b></h1>
+      </header>
+
+      <main style="text-align: left ; display: flex; justify-content: center;">
+        <form action="./formularioResultado.html">
+          <sction>
+            <h3> Nome: <input type="text" name="name" id="name" placeholder="Digite seu nome"></h3>
+          </sction>
+
+          <sction>
+            <h3>Email: <input type="email" name="email" id="email" placeholder="Digite seu email"></h3>
+          </sction>
+
+          <sction>
+            <h3>Idade: <input type="number" name="idade" id="idade" placeholder="Digite sua idade"></h3>
+          </sction>
+
+          <sction>
+            <h3>Data de Nascimento: <input type="date" name="data de nascimento" id="data"
+                placeholder="Digite sua data de nascimento"></h3>
+          </sction>
+
+          <sction>
+            <h3>Você ja programou antes? <input type="radio" name="sim" id="sim">Sim <input type="radio" name="nao"
+                id="nao">Não</h3>
+          </sction>
+
+          <sction>
+            <h3> <label for="text">Linguagens que você conhece (separadas por vírgulas):</label>
+              <br>
+              <textarea name="text1" id="text1" cols="60" rows="7" placeholder="Ex: javascript, Python, Java"></textarea>
+            </h3>
+
+          </sction>
+
+          <sction>
+            <h3>Nível de experiência:
+              <select name="select" id="select">
+                <option value="2">selecionar</option>
+                <option value="2">Iniciante</option>
+                <option value="2">Intermediário</option>
+                <option value="2">Avançado</option>
+              </select>
+            </h3>
+
+          </sction>
+
+          <sction>
+            <h3> <label for="text">Conte-nos sobre seus projetos ou interesses em Programação:</label>
+              <br>
+              <textarea name="text2" id="text2" cols="60" rows="5"
+                placeholder="Fale sobre seus projetos, ideias ou duvidas... "></textarea>
+            </h3>
+          </sction>
+
+          <sction>
+            <h3>Perfil do GitHub: <input type="search" name="github" id="github" placeholder="htt://github.com/usuario"></h3>
+          </sction>
+
+          <sction>
+            <input type="submit" value="Enviar Cadastro">
+            <input type="reset" value="Limpar Formulario">
+          </sction>
+          <br>
+          <br>
+          <br>
+          <br>
+        </form>
+      </main>
+
+    
+    </div>
+  </div>
+
+</body>
+
+</html>

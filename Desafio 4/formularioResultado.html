@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>resultado</title>
+</head>
+<body>
+  <div style="background-color: rgb(249, 249, 249); display: flex; justify-content: center;">
+    <div style="background-color: rgb(244, 244, 244); height: auto; width: 60%;">
+      <header>
+        <h1 align="center"><b><u>Dados Preenchidos</u>
+          </b></h1>
+      </header>
+
+      <main>
+        <p>
+          Nome:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("name"));
+            </script>
+          </b>
+        </p>
+        <p>
+          Email:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("email"));
+            </script>
+          </b>
+        </p>
+        <p>
+          Idade:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("idade"));
+            </script>
+          </b>
+        </p>
+
+        <p>
+          Data de Nascimento:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("data de nascimento"));
+            </script>
+          </b>
+        </p>
+
+        <p>
+          Você ja programou antes?
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("sim"));
+            
+            </script>
+          </b>
+        </p>
+
+        <p>
+          Linguagens que você conhece:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("text1"));
+            </script>
+          </b>
+        </p>
+
+        <p>
+          Nível de experiência:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("select"));
+            </script>
+          </b>
+        </p>
+
+        <p>
+          Conte-nos sobre seus projetos ou interesses em Programação:
+          <b>
+            <script> 
+              document.write(new URLSearchParams(window.location.search).get("text2"));
+            </script>
+          </b>
+        </p>
+
+        Perfil do GitHub:
+        <b>
+          <script> 
+            document.write(new URLSearchParams(window.location.search).get("github"));
+          </script>
+        </b>
+      </p>
+
+
+        
+
+
+
+
+        
+
+        <a href="./home.html">Voltar</a>
+      </main>
+
+    </div>
+    </div>
+</body>
+</html>

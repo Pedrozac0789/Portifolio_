@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(122, 198, 246);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    background-image: url('../imagem/clouds.png');
+    height: 100vh;
+
+}
+.container-Tempo{
+    margin-top: 20px;
+}
+.container{
+    
+    width: 400px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color:thistle;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    
+}

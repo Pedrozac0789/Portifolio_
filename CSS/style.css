@@ -1,0 +1,227 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,800;1,300&display=swap);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: poppins;
+}
+
+body {
+  background-color: #0a0f2c;
+
+}
+/* 
+.btn-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.5);
+  overflow: hidden;
+  margin-top: 53px;
+}
+.btn {
+  padding: 15px 40px;
+  border: none;
+  outline: none;
+  color: #d5d9eb;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 12px;
+}
+.btn::before {
+  content: "";
+  background: linear-gradient(45deg, lightgrey, #53535d, silver);
+  z-index: -1;
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background-size: 600%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+  opacity: 0;
+}
+.btn::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #0619ef;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+
+@keyframes glowing {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+/* hover */
+/* .btn:hover::before {
+  opacity: 1;
+}
+
+.btn:active::after{
+  background: transparent;
+}
+
+.btn:active {
+  color: #060f42;
+  font-weight: bold;
+} */ 
+
+.nexus-button {
+  font-size: 19px;
+  /* font-weight: 500; */
+  /* border: 1px solid #ababab; */
+   box-shadow: 0px 0px 17px 0px rgba(184, 184, 184, 0.5);
+  border-radius: 12px;
+  /* padding: 5px 10px; */
+  color: silver;
+  /* letter-spacing: 2.5px; */
+  background: #0701a2;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+  width: 160px;
+  height: 60px;
+  margin-top: 55px;
+  margin-left: 250px;
+}
+
+.nexus-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  transition: all 0.7s ease;
+}
+
+.nexus-button:hover{
+  box-shadow: 0px 0px 17px 0px rgba(216, 216, 216, 0.5);
+  background-color: #ababab53;
+
+}
+
+.nexus-button:hover::before {
+  left: 100%;
+}
+
+
+#lista {
+  text-align: center;
+  border-bottom: 5px solid lightgrey;
+  color: silver;
+  font-weight: 500;
+  font-size: 50px;
+  width: 440px;
+  margin-top: 280px;
+  margin-left: 510px;
+}
+h2 {
+  margin-top: 150px;
+  text-align: center;
+  border-bottom: 3px solid lightgrey;
+  color: silver;
+  width: 390px;
+  font-size: 30px;
+  margin-left: 570px;
+  margin-bottom: 60px;
+}
+
+section {
+  margin-top: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.card {
+  width: 300px;
+  height: 420px;
+  background-color: rgb(10, 5, 82);
+  border-radius: 12px;
+  font-size: 16px;
+  gap: 15px;
+  border: 4px solid #0a0f2c6a;
+  color: silver;
+  box-shadow: rgba(0, 0, 0, 0.5) 7px 4px 15px 8px;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px 10px 0 0;
+}
+
+.card div {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 18px;
+  text-align: center;
+}
+
+footer {
+  margin-top: 250px;
+  width: 100%;
+  height: 45px;
+  background-color: rgba(4, 14, 86, 0.737);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: silver;
+}
+
+.card-btn {
+  width: 150px;
+  height: 50px;
+
+  background-color: #1b169fb7;
+  border: 2px solid #1b169fb7;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.5) 2px 7px 15px 8px;
+  /* box-shadow: 0px 0px 19px 2px silver; */
+}
+
+a {
+  text-decoration: none;
+  color: #f1f2f4;
+}
+.card-btn:hover {
+  background-color: #618dfd;
+  border: 2px solid rgba(192, 192, 192, 0.452);
+ 
+
+}
+
+.card-btn:hover a{
+   color: #0a0f2c;
+}

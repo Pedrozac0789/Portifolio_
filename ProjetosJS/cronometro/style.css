@@ -1,0 +1,34 @@
+.circulo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(198, 198, 211);
+  width: 270px;
+  height: 270px;
+  border-radius: 100%;
+  margin-left: 600px;
+  border: 5px solid #681313;
+}
+
+.off {
+  display: none;
+}
+
+.on {
+  display: block;
+}
+
+.upgrade {
+  background-color: brown;
+}
+
+.list {
+  margin-left: 670px;
+}
+
+button {
+  margin-top: 10px;
+  border-radius: 50px;
+  border: 2px solid #494949;
+}
