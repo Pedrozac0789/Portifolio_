@@ -66,5 +66,5 @@ roundButton.addEventListener("click", () => {
     return;
   }
 
-  listRound.innerHTML += `<li> = ${minuts} : ${secunds} : ${mili}</li>`;
+  listRound.innerHTML += `<li>= ${minuts} : ${secunds} : ${mili}</li>`;
 });
