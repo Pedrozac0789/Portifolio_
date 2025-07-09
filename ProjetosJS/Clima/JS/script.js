@@ -20,14 +20,14 @@ async function buscarClima() {
   console.log(condicoesAtuais);
 
   const celsius = condicoesAtuais.temp_C;
-  console.log(celsius);
+  console.log(celsius );
 
-  temperaturaC.textContent = celsius;
+  temperaturaC.textContent = celsius + `°C`;
 
   const fahreheit = condicoesAtuais.temp_F;
   console.log(fahreheit);
 
-  temperaturaF.textContent = fahreheit;
+  temperaturaF.textContent = fahreheit + `°F`;
 
   const cidadeNome = dados.nearest_area[0].areaName[0].value;
   console.log(cidadeNome);
