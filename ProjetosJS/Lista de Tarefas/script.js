@@ -22,12 +22,16 @@ function buscarTarefas() {
   lista.innerHTML = "";
   listaDeTarefas.map((item, index) => {
     lista.innerHTML += `<li>
+   
     <span class=${item.concluido === true ? "riscado" : "progresso"}>
     ${item.value}</span>
-    <button onclick=concluido(${index})>${
+    
+    
+    <button class='btn-concluir' onclick=concluido(${index})>${
       item.concluido === true ? "Voltar" : "Concluir"
     }</button>
-          <button onclick=remover(${index})>Remover</button>
+          <button class='btn-remover'onclick=remover(${index})>Remover</button>
+    
     </li>`;
   });
   console.log(listaDeTarefas);

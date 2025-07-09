@@ -7,16 +7,21 @@
     <title>Lista de Tarefa</title>
   </head>
   <body>
-    <h1>Lista de Tarefa</h1>
-    <input type="text" id="nova-tarefa" >
-    <button id="adicionar">
-      Adicionar tarefa
-    </button>
-  
-    <h2>Tarefas</h2>
-    <p id="aviso"></p>
-    <ul id="lista"></ul>
+    <div class="card">
+      <div class="card-adicionar">
+        <h1>Lista de Tarefa</h1>
+        <input type="text" id="nova-tarefa" placeholder="Insira uma tarefa" />
+        <button id="adicionar">Adicionar Tarefa</button>
+      </div>
 
+      <div class="card-resultado">
+        <h2>Tarefas</h2>
+        <p id="aviso"></p>
+        <ul id="lista"></ul>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
+
+

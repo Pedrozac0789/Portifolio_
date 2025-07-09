@@ -1,7 +1,130 @@
-.riscado {
-  text-decoration: line-through;
-}
-.progresso {
-  color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  margin-top: 20px;
+  width: 500px;
+  height: 700px;
+  background-color: #1c1c1c;
+  border-radius: 20px;
+  color: aliceblue;
+  border: 3px solid #000;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.btn-concluir {
+  margin-left: 20px;
+  font-size: 15px;
+  border: none;
+  width: 70px;
+  height: 25px;
+  background-color: #32cd32;
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+ul{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+li{
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #363636;
+  width: 70%;
+  height: 36px;
+  display: flex;
+  
+  align-items: center;
+  border-radius: 24px;
+  margin-bottom: 10px;
+}
+
+.btn-remover {
+  margin-left: 8px;
+  font-size: 15px;
+  border: none;
+  width: 70px;
+  height: 25px;
+  background-color: #de3163;
+  border-radius: 30px;
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.riscado {
+  text-decoration: line-through;
+    margin-left:20px;
+}
+.progresso {
+  color: #d3d3d3;
+  margin-left: 20px;
+  
+}
+
+input {
+  margin-top: 15px;
+  border: none;
+  border-radius: 12px;
+  width: 270px;
+  height: 40px;
+  background-color: #363636;
+  border: 2px solid #252525;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  text-align: center;
+  font-size: 17px;
+  color: #f3f0f0;
+  margin-bottom: 30px;
+}
+
+#adicionar {
+  width: 130px;
+  height: 40px;
+  border-radius: 20px;
+  border: none;
+  background-color: #252525;
+  color: #dcdcdc;
+  font-size: 15px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+h1 {
+  color: #c0c0c0;
+  font-size: 40px;
+  border-bottom: 3px solid #808080;
+  width: 340px;
+  text-align: center;
+}
+
+h2 {
+  color: #f47404;
+  font-size: 30px;
+  margin-bottom: 50px;
+  border-bottom: 3px solid #ed8607;
+  width: 120px;
+  text-align: center;
+}
+
+.card-resultado {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 90px;
+}
+
+.card-adicionar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 20px;
+  gap: 20px;
+}
