@@ -10,89 +10,16 @@ body {
   background-color: #0a0f2c;
 
 }
-/* 
-.btn-space {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transform: scale(1.5);
-  overflow: hidden;
-  margin-top: 53px;
-}
-.btn {
-  padding: 15px 40px;
-  border: none;
-  outline: none;
-  color: #d5d9eb;
-  cursor: pointer;
-  position: relative;
-  z-index: 0;
-  border-radius: 12px;
-}
-.btn::before {
-  content: "";
-  background: linear-gradient(45deg, lightgrey, #53535d, silver);
-  z-index: -1;
-  position: absolute;
-  left: -2px;
-  top: -2px;
-  background-size: 600%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  filter: blur(8px);
-  animation: glowing 20s linear infinite;
-  transition: opacity 0.3s ease-in-out;
-  border-radius: 10px;
-  opacity: 0;
-}
-.btn::after {
-  content: "";
-  z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-color: #0619ef;
-  left: 0;
-  top: 0;
-  border-radius: 10px;
-}
 
-
-@keyframes glowing {
-  0% {
-    background-position: 0 0;
-  }
-  50% {
-    background-position: 400% 0;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
-
-/* hover */
-/* .btn:hover::before {
-  opacity: 1;
-}
-
-.btn:active::after{
-  background: transparent;
-}
-
-.btn:active {
-  color: #060f42;
-  font-weight: bold;
-} */ 
 
 .nexus-button {
   font-size: 19px;
-  /* font-weight: 500; */
-  /* border: 1px solid #ababab; */
+  
    box-shadow: 0px 0px 17px 0px rgba(184, 184, 184, 0.5);
   border-radius: 12px;
-  /* padding: 5px 10px; */
+
   color: silver;
-  /* letter-spacing: 2.5px; */
+ 
   background: #0701a2;
   cursor: pointer;
   transition: all 0.3s ease;
@@ -158,7 +85,7 @@ section {
 
 .card {
   width: 300px;
-  height: 420px;
+  height: 435px;
   background-color: rgb(10, 5, 82);
   border-radius: 12px;
   font-size: 16px;

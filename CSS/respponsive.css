@@ -1,0 +1,49 @@
+@media (max-width: 780px) {
+  .home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .img-perfil {
+    margin-bottom: 100px;
+    width: 660px;
+    height: 450px;
+  }
+  .inicio{
+
+  justify-content: center ;
+}
+
+  .texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1px;
+    
+  }
+  .nexus-button {
+    margin-right: 300px;
+  }
+  h2 {
+    width: 240px;
+    margin-left: 0px;
+    font-size: 19px;
+  }
+  #lista{
+    margin-left: 30px;
+    font-size: 29px;
+    width: 310px;
+  }
+  .euSou{
+  font-size: 19px;
+}
+.text-descrition{
+  font-size: 12px;
+}
+h1{
+    font-size: 25px;
+}
+
+
+}
